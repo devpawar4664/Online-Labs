@@ -6,4 +6,100 @@ Hawkeye Challenge
 stealer.pcap file received.
 Capture Time: 2019-04-10 20:37:07 to 2019-04-10 17:40:48 (1hr 3min 41sec)
 
-protocols: tcp, http, smb, nbss, kerberos
+protocols: tcp, http, smb, nbss, kerberos, NetBois,
+conversations: 217.182.138.150 , 10.4.10.4 , 23.229.162.69 ,
+pno:206 
+      first http get packet executed to proforma-invoices.com at UTC Arrival Time: Apr 10, 2019 20:37:54.577019000 UTC
+      which requested following file.
+      File-> Export-> http objects: tkraw_Protected99.exe (sha256: 62099532750dad1054b127689680c38590033fa0bdfa4fb40c7b4dcb2607fb11)
+                                    Detected as trojen on VirusTotal (Malicious)
+                                    Creation Time: 2019-04-10 04:43:40 UTC (Same date as our capture time)
+                                    queries to whatismyipaddress.com
+
+
+pno: 3175
+      first smtp packet.
+      Host Name: p3plcpnl0413.prod.phx3.secureserver.net
+      software: Exim 4.91
+      Machine name: Beijing-5cd1-PC
+      Public ip: 173.66.146.112
+      Login Attempt: login: c2FsZXMuZGVsQG1hY3dpbmxvZ2lzdGljcy5pbg==   password: U2FsZXNAMjM=
+      Mail from: sales.del@macwinlogistics.in
+      Subject: SGF3a0V5ZSBLZXlsb2dnZXIgLSBSZWJvcm4gdjkgLSBQYXNzd29yZHMgTG9ncyAtIHJvbWFuLm1jZ3VpcmUgXCBCRUlKSU5HLTVDRDEtUEMgLSAxNzMuNjYuMTQ2LjExMg==
+      Mail content: SGF3a0V5ZSBLZXlsb2dnZXIgLSBSZWJvcm4gdjkNClBhc3N3b3JkcyBMb2dzDQpyb21hbi5t
+Y2d1aXJlIFwgQkVJSklORy01Q0QxLVBDDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09DQpVUkwgICAgICAgICAgICAgICA6IGh0dHBzOi8v
+bG9naW4uYW9sLmNvbS9hY2NvdW50L2NoYWxsZW5nZS9wYXNzd29yZA0KV2ViIEJyb3dzZXIg
+ICAgICAgOiBJbnRlcm5ldCBFeHBsb3JlciA3LjAgLSA5LjANClVzZXIgTmFtZSAgICAgICAg
+IDogcm9tYW4ubWNndWlyZTkxNEBhb2wuY29tDQpQYXNzd29yZCAgICAgICAgICA6IFBAc3N3
+MHJkJA0KUGFzc3dvcmQgU3RyZW5ndGggOiBWZXJ5IFN0cm9uZw0KVXNlciBOYW1lIEZpZWxk
+ICAgOiANClBhc3N3b3JkIEZpZWxkICAgIDogDQpDcmVhdGVkIFRpbWUgICAgICA6IA0KTW9k
+aWZpZWQgVGltZSAgICAgOiANCkZpbGVuYW1lICAgICAgICAgIDogDQo9PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQo9PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KVVJMICAgICAgICAgICAg
+ICAgOiBodHRwczovL3d3dy5iYW5rb2ZhbWVyaWNhLmNvbS8NCldlYiBCcm93c2VyICAgICAg
+IDogQ2hyb21lDQpVc2VyIE5hbWUgICAgICAgICA6IHJvbWFuLm1jZ3VpcmUNClBhc3N3b3Jk
+ICAgICAgICAgIDogUEBzc3cwcmQkDQpQYXNzd29yZCBTdHJlbmd0aCA6IFZlcnkgU3Ryb25n
+DQpVc2VyIE5hbWUgRmllbGQgICA6IG9ubGluZUlkMQ0KUGFzc3dvcmQgRmllbGQgICAgOiBw
+YXNzY29kZTENCkNyZWF0ZWQgVGltZSAgICAgIDogNC8xMC8yMDE5IDI6MzU6MTcgQU0NCk1v
+ZGlmaWVkIFRpbWUgICAgIDogDQpGaWxlbmFtZSAgICAgICAgICA6IEM6XFVzZXJzXHJvbWFu
+Lm1jZ3VpcmVcQXBwRGF0YVxMb2NhbFxHb29nbGVcQ2hyb21lXFVzZXIgRGF0YVxEZWZhdWx0
+XExvZ2luIERhdGENCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09DQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09DQpOYW1lICAgICAgICAgICAgICA6IFJvbWFuIE1jR3VpcmUNCkFwcGxpY2F0
+aW9uICAgICAgIDogTVMgT3V0bG9vayAyMDAyLzIwMDMvMjAwNy8yMDEwDQpFbWFpbCAgICAg
+ICAgICAgICA6IHJvbWFuLm1jZ3VpcmVAcGl6emFqdWtlYm94LmNvbQ0KU2VydmVyICAgICAg
+ICAgICAgOiBwb3AucGl6emFqdWtlYm94LmNvbQ0KU2VydmVyIFBvcnQgICAgICAgOiA5OTUN
+ClNlY3VyZWQgICAgICAgICAgIDogTm8NClR5cGUgICAgICAgICAgICAgIDogUE9QMw0KVXNl
+ciAgICAgICAgICAgICAgOiByb21hbi5tY2d1aXJlDQpQYXNzd29yZCAgICAgICAgICA6IFBA
+c3N3MHJkJA0KUHJvZmlsZSAgICAgICAgICAgOiBPdXRsb29rDQpQYXNzd29yZCBTdHJlbmd0
+aCA6IFZlcnkgU3Ryb25nDQpTTVRQIFNlcnZlciAgICAgICA6IHNtdHAucGl6emFqdWtlYm94
+LmNvbQ0KU01UUCBTZXJ2ZXIgUG9ydCAgOiA1ODcNCj09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCg==
+
+      Decoded Content: HawkEye Keylogger - Reborn v9
+Passwords Logs
+roman.mcguire \ BEIJING-5CD1-PC
+
+==================================================
+URL               : https://login.aol.com/account/challenge/password
+Web Browser       : Internet Explorer 7.0 - 9.0
+User Name         : roman.mcguire914@aol.com
+Password          : P@ssw0rd$
+Password Strength : Very Strong
+User Name Field   : 
+Password Field    : 
+Created Time      : 
+Modified Time     : 
+Filename          : 
+==================================================
+
+==================================================
+URL               : https://www.bankofamerica.com/
+Web Browser       : Chrome
+User Name         : roman.mcguire
+Password          : P@ssw0rd$
+Password Strength : Very Strong
+User Name Field   : onlineId1
+Password Field    : passcode1
+Created Time      : 4/10/2019 2:35:17 AM
+Modified Time     : 
+Filename          : C:\Users\roman.mcguire\AppData\Local\Google\Chrome\User Data\Default\Login Data
+==================================================
+
+==================================================
+Name              : Roman McGuire
+Application       : MS Outlook 2002/2003/2007/2010
+Email             : roman.mcguire@pizzajukebox.com
+Server            : pop.pizzajukebox.com
+Server Port       : 995
+Secured           : No
+Type              : POP3
+User              : roman.mcguire
+Password          : P@ssw0rd$
+Profile           : Outlook
+Password Strength : Very Strong
+SMTP Server       : smtp.pizzajukebox.com
+SMTP Server Port  : 587
+==================================================
+
